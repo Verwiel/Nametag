@@ -1,0 +1,25 @@
+.nametagbox {
+    background: red;
+    color: white;
+    max-width: 300px;
+    margin: auto;
+    padding: 1px 0px 20px 0px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .intro {
+    line-height: 90%;
+    font: arial, sans-serif;
+  }
+  
+  .name {
+    background: white;
+    color: black;
+    padding: 5px 0px 5px 0px;
+    font-family: Comic Sans MS, sans-serif;
+  }
+  body{
+    background-color: gray;
+  }
+  
