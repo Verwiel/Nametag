@@ -6,15 +6,25 @@
   </head>
 
   <body>
+    <form>
+      <input id="newName" type="text" placeholder="Enter Name Here">
+      <button type="button" onclick="inputForm(newName.value)">Write Name </button>
+    </form>
     <div class="nametagbox">
         <div class="intro">
           <h1>Hello</h1>
           <h2>my name is</h2>
           <div class="name">
-            <h1>Drew Verwiel</h1>
+            <h1 id="input-name">PlaceHolder</h1>
           </div>
         </div>
       </div>
+  <script>
+    function inputForm (newName) {
+       console.log(newName);
+       document.getElementById('input-name').innerHTML=newName;
+    }
+  </script>
   </body>
 
 </html>
