@@ -3,23 +3,25 @@
 
   <head>
     <title>Nametag</title>
+    <!-- link to CSS -->
     <link rel="stylesheet" href="index.css" type="text/css">
   </head>
 
   <body>
     <form>
-      <input id="newName" type="text" placeholder="Enter Name Here">
-      <button type="button" onclick="inputForm(newName.value)">Write Name</button>
+      <input id="userName" type="text" placeholder="Enter Name Here">
+      <button id="enterButton" onclick="inputForm(userName.value)">Write Name</button>
     </form>
     <div class="nametagbox">
         <div class="intro">
           <h1>Hello</h1>
           <h2>my name is</h2>
           <div class="name">
-            <h1 id="input-name">PlaceHolder</h1>
+            <h1 id="name-card-name">John Doe</h1>
           </div>
         </div>
       </div>
+    <!-- link to JS File -->
     <script src="index.js"></script>
   </body>
 
