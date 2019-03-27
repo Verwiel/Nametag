@@ -4,5 +4,6 @@ function inputForm (userName) {
   if (event.keyCode === 13) {
    event.preventDefault();
    document.getElementById("enterButton").click();
-  }
-});
+    }
+  })
+};
